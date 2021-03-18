@@ -10,7 +10,7 @@ class MySQL():
             host = "39.100.106.61",
             port = 3306,
             user = "root",
-            passwd = "123456",
+            passwd = "Buyall01$",
             db = "aa",
             charset = "utf8")
         self.conn.select_db("crawler")

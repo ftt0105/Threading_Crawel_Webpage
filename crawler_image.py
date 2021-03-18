@@ -1,8 +1,4 @@
 #--coding:utf-8--
-# @Time    : 2020/12/19/019 0:05
-# @Author  : panyuangao
-# @File    : crawler_image.py
-# @PROJECT : My_crawler
 
 import requests
 import re,os
@@ -86,7 +82,7 @@ if __name__ == '__main__':
     queue = queue.Queue() #队列，用来存放
     res_urls = [] #存放所有url，用于去重
     image_no = 0 #图片保存本地的编号（文件名）
-    image_dir = r'g:\image' #图片保存本地的目录
+    image_dir = r'D:\phpStudy\Threading_Crawel_Webpage\image' #图片保存本地的目录
     if not os.path.exists(image_dir): #判断目录是否存在，不存在则创建
         os.makedirs(image_dir)
 
